@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir | Wahdy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="emyu.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="form.html" class="active">FORM</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-container">
+        <h2 class="fade-up">Silahkan Isi</h2>
+        <p class="note fade-up">Tanda (<b>*</b>) wajib diisi</p>
+
+        <form class="fade-up">
+            <div class="form-group">
+                <label>Nama Lengkap*</label>
+                <input type="text" placeholder="Masukkan Nama Lengkap">
+            </div>
+
+            <div class="form-group">
+                <label>Nama Panggilan*</label>
+                <input type="text" placeholder="Masukkan Nama Panggilan">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Jenis Kelamin*</label>
+                    <select>
+                        <option value="">Pilih</option>
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Agama*</label>
+                    <select>
+                        <option value="">Pilih</option>
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Hindu</option>
+                        <option>Buddha</option>
+                        <option>Konghucu</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Hobi <i>(opsional)</i></label>
+                    <input type="text" placeholder="Masukkan Hobi Kalian">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Alamat*</label>
+                <textarea rows="3" placeholder="Masukkan alamat"></textarea>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Tempat Lahir*</label>
+                    <input type="text" placeholder="Contoh: Kajang">
+                </div>
+                <div class="form-group">
+                    <label>Tanggal Lahir*</label>
+                    <input type="date">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Motto Hidup*</label>
+                <textarea rows="3" placeholder="Masukkan motto hidup kamu"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </section>
+
+    <footer class="fade-up">
+        <p>© Copyright 2025 | Andi Nurwahdy Al Fiqri Aris</p>
+    </footer>
+      <audio autoplay loop>
+        <source src="Glory Glory Man United.mp3" type="audio/mpeg">
+      </audio>
+</body>
+</html>
